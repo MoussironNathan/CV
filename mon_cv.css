@@ -353,7 +353,7 @@ main div{
 
 .left{
     float: left;
-    width: 31vw;
+    width: 30vw;
     background-color: rgb(23, 23, 58);
     display: flex;
     flex-direction: column;
@@ -368,9 +368,10 @@ img{
     width: 200px;
     clip-path: ellipse(50% 50%);
     float: left;
+    margin-bottom: 2vh;
 }
 
-h1, h2, h3, h4, p{
+h1, h2, h4{
     text-align: center;
 }
 
@@ -379,13 +380,13 @@ h1{
 }
 
 #presentation h3{
-    margin-top: 15vh;
+    margin-top: 8vh;
 }
 
 #profil{
     border-bottom: black solid 4px;
-    margin-top: 4vh;
-    margin-bottom: 6vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
 }
 
 #coord p{
@@ -400,13 +401,9 @@ h1{
 }
 
 .right div{
-    margin-top: 8vh;
+    margin-top: 4vh;
 }
 
 #formation p, #loisirs p{
     margin-left: 2vw;
-}
-
-h3, h4, p{
-    text-align: initial;
 }
