@@ -1,65 +1,84 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="mon_cv.css">
     <title>cv</title>
 </head>
-
 <body>
-    <div>
+    <div class="main">
         <div class="left">
-            <div id="presentation">
+            <div class="presentation">
                 <img src="photo.jpg" alt="photo">
-                <h1>Moussiron <br>Nathan</h1>
-                <h3>Étudiant en informatique </h3>
-                <P>
-                    119 cours du maréchal Gallieni<br>
-                    33000, Bordeaux<br>
-                    Téléphone : 06 95 43 50 29<br>
-                    mail : nathan.moussiron@gmail.com<br>
-                </P>
+                <h1>Nathan<br> Moussiron</h1>
+                <h2>Étudiant en informatique </h2>
+                <h3>Contact :</h3>
+                <ul id="contact">
+                    <li>Adresse : 119 cours du maréchal Gallieni <br> 33000, Bordeaux</li><br>
+                    <li>Téléphone : 06 95 43 50 29</li><br>
+                    <li>Mail : nathan.moussiron@gmail.com</li><br>
+                </ul>
             </div>
-            <div id="profil">
-                <h2>PROFIL PERSONNEL</h2>
-                <p>Je suis un étudiant en informatique agé de 19 ans. <br>
-                    Je me considère comme une personne motivée et disciplinée.
-                </p>
-                <h3>Compétences et savoir-faire</h3>
-                <ul>
-                    <li>Connaissances élémentaires en espagnol et intermédiaires en anglais</li>
-                    <li>Connaissances intermédiaires en informatique</li>
+            <div class="loisir">
+                <h2>LOISIRS</h2>
+                <h4>Principaux loisirs :</h4>
+                <ul id="loisir">
+                    <li>Robotique</li>
+                    <li>web</li>
+                    <li>Jeux d'équipes</li>
+                    <li>Jeux de réflexion</li>
+                    <li>Musique</li>
                 </ul>
             </div>
         </div>
         <div class="right">
-            <div id="formation">
+            <div class="formation">
                 <h2>FORMATION</h2>
-                <h3>Université de Gradignan</h3>
+                <h3>Université de Gradignan(33) (2020 - 2022)</h3>
                 <p>
                     DUT informatique (en cours) <br>
                     - Membre du parcours robotique
                 </p>
-                <h3>Lycée de la Mer, Gujan-Mestras</h3>
+                <h3>Lycée de la Mer, Gujan-Mestras(33) (2017 - 2020)</h3>
                 <p>
                     Diplômé en 2020 avec Mention 'Bien' <br>
                     Bac STI2D (Sciences et Technologies de l’Industrie et du Développement Durable) <br>
                     Spécialité SIN (Système d’Information et Numérique).
                 </p>
             </div>
-            <div id="exp">
+            <div class="profil">
+                <h2>COMPÉTENCES</h2>
+                <div id="savoir">
+                    <div>
+                        <h4>Informatique : </h4>
+                        <ul id="info" title="info">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Java</li>
+                            <li>C/C++</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Langues : </h4>
+                        <ul id="langue">
+                            <li>Anglais : courant</li>
+                            <li>Espagnol : lu et écrit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="exp">
                 <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
                 <h3>Stage</h3>
                 <ul>
                     <li>
-                        Maxicoffee<br>
+                        Maxicoffee
                         <p>
                             Stage de 3ème au service informatique de Maxicoffe à La Teste-de-Buch (33)
                         </p>
                     </li>
                 </ul>
-                <h3>Petit job</h3>
+                <h3>Bénévolat</h3>
                 <ul>
                     <li>
                         <p>
@@ -77,17 +96,7 @@
                     </li>
                 </ul>
             </div>
-            <div id="loisirs">
-                <h2>LOISIRS</h2>
-                <p>
-                    Dans le domaine de l'informatique, je porte un intérêt particulier à la
-                    robotique et au web. J'apprécie les jeux d'équipes autant que les jeux de
-                    réflexion et j'aime passer du temps a écouter de la musique orienté rock ou
-                    métal.
-                </p>
-            </div>
         </div>
     </div>
 </body>
-
 </html>
