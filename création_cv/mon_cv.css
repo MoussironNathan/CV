@@ -71,14 +71,40 @@ h1{
     text-align: initial;
 }
 
-.profil div{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+#savoir{
+    margin-left: 10vw;
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: 2, 1fr;
+    grid-gap: 10px;
 }
 
-#info, #langue{
+#un{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#deux{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#trois{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#quatre{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#cinq{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#obj, #web, #IDE, #OS, #langue{
     list-style-type: '- '; 
 }
 
@@ -103,7 +129,7 @@ h1{
 
 /* cas d'un écran possédant une largeur comprise entre 600 et 1024px */
 
-@media only screen and (min-width: 700px) and (max-width: 1150px) {
+@media only screen and (min-width: 850px) and (max-width: 1150px) {
 
     .main{
         display: flex;
@@ -182,15 +208,40 @@ h1{
         text-align: initial;
     }
     
-    .profil div{
-        margin-bottom: initial;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
+    #savoir{
+        margin-left: 5vw;
+        display: grid;
+        grid-template-columns: 3, 1fr;
+        grid-template-rows: 2, 1fr;
+        grid-gap: 10px;
     }
     
-    #info, #langue{
+    #un{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #deux{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    #trois{
+        grid-column: 3;
+        grid-row: 1;
+    }
+    
+    #quatre{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #cinq{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    
+    #obj, #web, #IDE, #OS, #langue{
         list-style-type: '- '; 
     }
     
@@ -208,7 +259,7 @@ h1{
 
 /* cas d'un écran possédant une largeur infÃ©rieure Ã  600px */
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 850px){
 
     .main{
         display: flex;
@@ -225,7 +276,7 @@ h1{
     }
     
     img{
-        width: 20vw;
+        width: 130px;
         clip-path: ellipse(50% 50%);
         margin-left: 3vw;
         margin-bottom: 2vh;
@@ -280,14 +331,40 @@ h1{
         text-align: initial;
     }
     
-    .profil div{
-        margin-bottom: initial;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+    #savoir{
+        margin-left: 6vw;
+        display: grid;
+        grid-template-columns: 2, 1fr;
+        grid-template-rows: 3, 1fr;
+        grid-gap: 10px;
     }
     
-    #info, #langue{
+    #un{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #deux{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    #trois{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #quatre{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    #cinq{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    #obj, #web, #IDE, #OS, #langue{
         list-style-type: '- '; 
     }
     
@@ -324,8 +401,8 @@ h1{
     
     /* Gauche */
     .left{
-        width: 25vw;
-        background-color: rgba(23, 23, 58, 0.7);
+        width: 30vw;
+        background-color: rgba(23, 23, 58, 0.5);
         display: flex;
         flex-direction: column;
         color: white;
@@ -382,26 +459,48 @@ h1{
     }
     
     .right div{
-        margin-bottom: 7vh;
+        margin-bottom: -1vh;
     }
     
-    .profil{
-        margin-top: 5vh;
-    }
     
     .profil h4{
         text-align: initial;
     }
     
-    .profil div{
-        margin-bottom: initial;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
+    #savoir{
+        margin-left: 6vw;
+        display: grid;
+        grid-template-columns: 2, 1fr;
+        grid-template-rows: 3, 1fr;
+        grid-gap: 0px;
     }
     
-    #info, #langue{
+    #un{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #deux{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    #trois{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #quatre{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    #cinq{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    #obj, #web, #IDE, #OS, #langue{
         list-style-type: '- '; 
     }
     
