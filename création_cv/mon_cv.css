@@ -461,8 +461,11 @@ h1{
     }
     
     .right div{
-        margin-bottom: -2vh;
+        margin-bottom: -1vh;
     }
+    
+    .formation, .profil{
+        margin-bottom: -3vh;
     
     
     .profil h4{
