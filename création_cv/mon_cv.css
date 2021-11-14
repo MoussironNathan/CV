@@ -65,7 +65,7 @@ h1{
 }
 
 .profil{
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 
 .profil h4{
@@ -202,7 +202,7 @@ h1{
     }
     
     .profil{
-        margin-top: 5vh;
+        margin-top: 3vh;
     }
     
     .profil h4{
@@ -325,7 +325,7 @@ h1{
     }
     
     .profil{
-        margin-top: 5vh;
+        margin-top: 3vh;
     }
     
     .profil h4{
@@ -463,17 +463,14 @@ h1{
     .right div{
         margin-bottom: -1vh;
     }
-    
-    .formation, .profil{
-        margin-bottom: -3vh;
-    }
-    
+
     .profil h4{
         text-align: initial;
     }
     
     #savoir{
-        margin-left: 6vw;
+        margin-top: -2vh;
+        margin-left: 0vw;
         display: grid;
         grid-template-columns: 2, 1fr;
         grid-template-rows: 3, 1fr;
@@ -503,6 +500,7 @@ h1{
     #cinq{
         grid-column: 1;
         grid-row: 3;
+        margin-bottom: 1vh;
     }
     
     #obj, #web, #IDE, #OS, #langue{
@@ -517,5 +515,9 @@ h1{
         height: auto;
         padding: 2vw;
         display: inline-block;
+    }
+
+    body{
+        margin-top: 1vh;
     }
 }
