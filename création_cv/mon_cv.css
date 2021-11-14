@@ -15,8 +15,8 @@
 }
 
 img{
-    width: 200px;
-    clip-path: ellipse(50% 50%);
+    width: 250px;
+    clip-path: ellipse(30% 50%);
     float: left;
     margin-bottom: 2vh;
 }
@@ -277,8 +277,8 @@ h1{
     }
     
     img{
-        width: 130px;
-        clip-path: ellipse(50% 50%);
+        width: 180px;
+        clip-path: ellipse(30% 50%);
         margin-left: 3vw;
         margin-bottom: 2vh;
     }
@@ -464,6 +464,9 @@ h1{
         margin-bottom: -1vh;
     }
     
+    .formation, .profil{
+        margin-bottom: -3vh;
+    }
     
     .profil h4{
         text-align: initial;
