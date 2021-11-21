@@ -452,6 +452,10 @@ h1{
     .loisir1 h4{
         text-align: initial;
     }
+
+    #loisir1 li{
+        padding: 10px;
+    }
     
     /* Droite */
     .right{
@@ -461,7 +465,7 @@ h1{
     }
     
     .right div{
-        margin-bottom: -1vh;
+        margin-bottom: 0vh;
     }
 
     .profil h4{
