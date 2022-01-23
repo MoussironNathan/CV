@@ -465,7 +465,7 @@ h1{
     }
     
     .right div{
-        margin-bottom: 0vh;
+        margin-bottom: -1vh;
     }
 
     .profil h4{
@@ -519,6 +519,10 @@ h1{
         height: auto;
         padding: 2vw;
         display: inline-block;
+    }
+
+    #job_ete {
+        display: none;
     }
 
     body{
