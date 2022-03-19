@@ -1,48 +1,106 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="mon_cv.css">
     <title>cv</title>
 </head>
+
 <body>
     <div class="main">
-        <div class="left">
+        <div class="left1">
             <div class="presentation">
-                <img src="photo.jpeg" alt="photo">
-                <h1>Nathan<br> Moussiron</h1>
-                <h2>Étudiant en informatique </h2>
+                <img id="moi" src="photo.jpg" alt="photo">
+                <h1 id="nom">Nathan<br> Moussiron</h1>
                 <ul id="contact">
-                    <li>119 Cr du Maréchal Gallieni <br> 33000, Bordeaux</li><br>
-                    <li>06 95 43 50 29</li><br>
-                    <li>nathan.moussiron@gmail.com</li><br>
-                    <li>https://github.com/MoussironNathan</li>
+                    <div>
+                        <li>19 ans</li><br>
+                        <li>119 Cr du Maréchal Gallieni <br> 33000, Bordeaux</li>
+                        <li>06 95 43 50 29</li>
+                        <li>nathan.moussiron@gmail.com</li>
+                    </div>
+                    <br>
+                    <img id="qr_code" src="qr_code_git.png" alt="QR Code" />
+                    <img id="qr_code" src="qr_code_linkedIn.png" alt="QR Code" />
                 </ul>
             </div>
+            <hr id="hr1">
             <div class="loisir1">
                 <h2>LOISIRS</h2>
                 <ul id="loisir1">
-                    <li>Jeux d'équipe</li>
-                    <li>Jeux de réflexion</li>
-                    <li>Musique</li>
+                    <li>
+                        Jeux vidéo
+                        <br>
+                        <ul>
+                            <li>League of legends</li>
+                            <li>Assassin's creed</li>
+                        </ul>
+                        <br>
+                    </li>
+                    <li>
+                        Musique
+                        <br>
+                        <ul>
+                            <li>Métal</li>
+                            <li>Rock</li>
+                            <li>Blues</li>
+                        </ul>
+                        <br>
+                    </li>
+                    <li>Sport : course</li>
+                </ul>
+            </div>
+            <hr id="hr1">
+            <div class="benevolat1">
+                <h2>Bénévolat</h2>
+                <ul id="benevolat1">
+                    <li>Don de cours d'informatique à une personne âgée</li><br>
+                    <li>Bénévole dans l'association "Carrefour des Sciences Robotiques" à Gradignan (33)</li><br>
                 </ul>
             </div>
         </div>
         <div class="right">
+            <h1>Recherche d'alternance en développement informatique</h1>
+            <hr>
+            <br>
             <div class="formation">
                 <h2>FORMATION</h2>
-                <h3>2020 - 2022 Université de Gradignan (33) </h3>
+                <h3>2022 - 2025 Epsi (33) </h3>
                 <p>
-                    DUT informatique (en cours) <br>
-                    - Membre du parcours robotique <br>
-                    - Membre du club Innovation SSL
+                    Formation en alternance orientée développement <br>
                 </p>
+                <h3>2020 - 2022 Université de Gradignan (33) </h3>
+                <p>DUT informatique (en cours)</p>
+                <ul id="parcours">
+                    <li>Membre du parcours robotique</li>
+                    <li>Membre du club Innovation SSL</li>
+                </ul>
                 <h3>2017 - 2020 Lycée de la Mer, Gujan-Mestras (33) </h3>
                 <p>
-                    Diplômé en 2020 avec Mention 'Bien' <br>
-                    Bac STI2D (Sciences et Technologies de l’Industrie et du Développement Durable) <br>
-                    Spécialité SIN (Système d’Information et Numérique).
+                    Diplômé en 2020 avec Mention 'Bien' <br> Bac STI2D (Sciences et Technologies de l’Industrie et du Développement Durable) <br> Spécialité SIN (Système d’Information et Numérique).
                 </p>
+            </div>
+            <div class="projet">
+                <h2>Projets</h2>
+                <div id="projets">
+                    <div id="p1">
+                        <h4>Bibliothèque de séries</h4>
+                        <ul>
+                            <li>Symfony</li>
+                            <li>SQL</li>
+                            <li>Système de connexion pour les utilisateurs</li>
+                        </ul>
+                    </div>
+                    <div id="p2">
+                        <h4>"Bob to the past"</h4>
+                        <ul>
+                            <li>Java</li>
+                            <li>Jeux de labyrinthe</li>
+                            <li>Objectif : Créer un labyrinthe avec un joueur et des ennemis</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="profil">
                 <h2>COMPÉTENCES</h2>
@@ -84,14 +142,14 @@
                     <div id="cinq">
                         <h4>Langues</h4>
                         <ul id="langue">
-                            <li>Anglais : lu et écrit</li>
-                            <li>Espagnol : notion</li>
+                            <li>Anglais : intermédiaire </li>
+                            <li>Espagnol : débutant</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="exp">
-                <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
+                <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
                 <h3>Stage</h3>
                 <ul>
                     <li>
@@ -110,28 +168,42 @@
                         </p>
                     </li>
                 </ul>
-                <h3>Bénévolat</h3>
-                <ul>
-                    <li>
-                        <p>
-                            Don de cours d'informatique à une personne âgée
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Bénévole dans l'association "Carrefour des Sciences Robotiques" à Gradignan (33)
-                        </p>
-                    </li>
-                </ul>
             </div>
         </div>
-        <div class="loisir2">
-            <h2>LOISIRS</h2>
-            <ul id="loisir2">
-                <li>Jeux d'équipe</li>
-                <li>Jeux de réflexion</li>
-                <li>Musique</li>
-            </ul>
+        <div class="left2">
+            <div class="loisir2">
+                <h2>LOISIRS</h2>
+                <ul id="loisir2">
+                    <li>
+                        Jeux vidéo
+                        <br>
+                        <ul>
+                            <li>League of legends</li>
+                            <li>Assassin's creed</li>
+                        </ul>
+                        <br>
+                    </li>
+                    <li>
+                        Musique
+                        <br>
+                        <ul>
+                            <li>Métal</li>
+                            <li>Rock</li>
+                            <li>Blues</li>
+                        </ul>
+                        <br>
+                    </li>
+                    <li>Sport : course</li>
+                </ul>
+            </div>
+            <hr id="hr2">
+            <div class="benevolat2">
+                <h2>Bénévolat</h2>
+                <ul id="benevolat2">
+                    <li>Don de cours d'informatique à une personne âgée</li>
+                    <li>Bénévole dans l'association "Carrefour des Sciences Robotiques" à Gradignan (33)</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
