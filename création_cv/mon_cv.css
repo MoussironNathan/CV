@@ -6,6 +6,10 @@
     background-color: black;
 }
 
+.impr {
+    display: none;
+}
+
 
 /* Gauche */
 
@@ -74,6 +78,15 @@ h4 {
     background-color: rgb(32, 32, 32);
 }
 
+.formation p {
+    margin-left: 2vw;
+}
+
+.formation h5,
+h4 {
+    display: none;
+}
+
 .profil {
     margin-top: 3vh;
 }
@@ -135,10 +148,6 @@ h4 {
     margin-bottom: 3vh;
 }
 
-.formation p {
-    margin-left: 2vw;
-}
-
 .left2 {
     display: none;
 }
@@ -174,11 +183,6 @@ h4 {
         position: absolute;
         top: 4vh;
         left: 7vw;
-    }
-    h1,
-    h2,
-    h4 {
-        text-align: center;
     }
     #nom {
         margin-top: 30vh;
@@ -295,11 +299,6 @@ h4 {
         position: absolute;
         top: 4vh;
         left: 7vw;
-    }
-    h1,
-    h2,
-    h4 {
-        text-align: center;
     }
     h1 {
         margin-top: 4vh;
@@ -431,11 +430,6 @@ h4 {
         position: initial;
         margin-top: 0;
     }
-    h1,
-    h2,
-    h4 {
-        text-align: center;
-    }
     h1 {
         margin-top: 4vh;
     }
@@ -544,6 +538,12 @@ h4 {
         justify-content: space-between;
         background-color: initial;
     }
+    .impr {
+        display: initial;
+    }
+    .nimpr {
+        display: none;
+    }
     /* Gauche */
     .left1 {
         width: 40vw;
@@ -560,11 +560,6 @@ h4 {
         width: 10vw;
         position: initial;
         margin: 0;
-    }
-    h1,
-    h2,
-    h4 {
-        text-align: center;
     }
     .presentation {
         margin-bottom: 0;
@@ -594,15 +589,12 @@ h4 {
         color: black;
     }
     .right div {
-        margin-bottom: -1vh;
+        margin-bottom: -2vh;
     }
     .right div:first-child {
         margin-top: 0;
     }
-    h1 {
-        margin-top: 0;
-    }
-    .formation p {
+    p {
         margin-left: 2vw;
     }
     .profil h4 {
@@ -649,9 +641,6 @@ h4 {
         height: auto;
         padding: 2vw;
         display: inline-block;
-    }
-    #job_ete {
-        display: none;
     }
     body {
         margin-top: 1vh;
